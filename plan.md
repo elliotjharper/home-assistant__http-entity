@@ -1,0 +1,6 @@
+- Create HttpTrackerEntity based off the base Entity class.
+- implement async monitoring of status via `async_update` method
+    - should make the request and at the end update the state
+- implement async trigger of the toggle via `async_press` method
+    - should make the request
+- require the polling interval to be provided by config
